@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "EDITORIAL PHOTOGRAPHY",
+        "price": "300",
+        "description": "Jamie Lau photographs for various magazines, supplements and websites, photographing front covers, features and reviews from portraits for YOU magazine and Waitrose magazine.",
+        "img": "https://thumbs.dreamstime.com/b/mosque-wonderful-indonesia-217578668.jpg"
+    },
+    {
+        "id": 2,
+        "name": "ADVERTISING PHOTOGRAPHY",
+        "price": "100",
+        "description": "Recent campaigns have included food photography, video and animations for Rowse Honey, drinks photography for Absolut Vodka, Easter food campaign photography for Marks & Spencer, Breyers Ice Cream, Phillips Shavers, Waitrose Wine as well as portraits for The Department of International Trade",
+        "img": "https://i.pinimg.com/736x/74/51/95/74519534a6a6ec6b494108d7a843d6dd.jpg"
+    },
+    {
+        "id": 3,
+        "name": "PORTRAIT PHOTOGRAPHY",
+        "price": "150",
+        "description": "Photographer Jamie Lau’s relaxed approach aims to make even the most nervous sitter feel at ease in front of the lense and enjoy the photographic experience. Jamie takes portraits that are natural and best reflect the sitters.",
+        "img": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/portrait-of-beautiful-muslim-girl-with-oppressed-look-amir-heydari.jpg"
+    },
+    {
+        "id": 4,
+        "name": "FOOD & DRINK PHOTOGRAPHY",
+        "price": "180",
+        "description": "Accomplished at working with restaurants, publishers and PR & Advertising agencies to create distinctive Food & Drink photography. Including studio photoshoots as well as still-life or lifestyle imagery on location at restaurants, private members clubs, cafes or bars.",
+        "img": "https://images.unsplash.com/photo-1613672614687-72368a34caea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Zm9vZCUyMGFuZCUyMGJldmVyYWdlfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+    },
+    {
+        "id": 5,
+        "name": "COOKBOOK PHOTOGRAPHY",
+        "price": "100",
+        "description": "Jamie Lau produces photography of an exceptional standard required for cookery books, authentically representing the recipes he photographs and edits. Together with the publisher, writer, food and prop stylist beautiful images are created that bring the recipes and stories to life, enticing the reader to a feast for their eyes.",
+        "img": "https://www.twopeasandtheirpod.com/wp-content/uploads/2019/03/Lichty_TwoPeasTheirPodCookbook_9781538730133_HC.jpg"
+    },
+    {
+        "id": 6,
+        "name": "WEDDING PHOTOGRAPHY",
+        "price": "300",
+        "description": "Event photographer Jamie Lau photographs various events, capturing the atmosphere and personalities of each occasion. From conference photography for Marks and Spencer, product launches, seminars to restaurant Pop-Ups and opening nights for bars throughout London, Oxford and Brighton.",
+        "img": "https://i.pinimg.com/736x/07/3b/5b/073b5b7ed37194206c69dbb7b83fc40d.jpg"
+    }
+]
