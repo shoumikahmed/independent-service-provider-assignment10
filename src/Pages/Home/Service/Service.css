@@ -3,4 +3,9 @@
     border-radius: 10px;
     padding-bottom: 10px;
     text-align: center;
+    padding: 10px;
+}
+
+.service:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, 0.298);
 }
