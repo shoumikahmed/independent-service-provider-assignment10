@@ -13,7 +13,7 @@ const Header = () => {
     }
     return (
         <>
-            <Navbar sticky='top' collapseOnSelect expand="lg" bg="primary" variant="dark">
+            <Navbar sticky='top' collapseOnSelect expand="lg" bg="success" variant="dark">
                 <Container>
                     <Navbar.Brand as={Link} to="/">
                         S.A Wedding Photograpy
