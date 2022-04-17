@@ -91,7 +91,7 @@ const Footer = () => {
 
                 </div>
                 <div className='text-center mb-3'>
-                    All Rights Reserved By &copy; S.A Wedding Photography | {year}
+                    All Rights Reserved By &copy; S.A Photography | {year}
                 </div>
             </div>
         </footer>
