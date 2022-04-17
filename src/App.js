@@ -4,12 +4,12 @@ import Home from './Pages/Home/Home/Home';
 import About from './Pages/About/About';
 import { Route, Routes } from 'react-router-dom';
 import Login from './Pages/Login/Login/Login';
-import Register from './Pages/Login/Register/Register';
 import Blogs from './Pages/Home/Blogs/Blogs'
 import Footer from './Pages/Shared/Footer/Footer';
 import NotFound from './Pages/Shared/NotFound/NotFound';
 import RequireAuth from './Pages/Login/RequireAuth/RequirAuth';
 import Checkout from './Pages/Checkout/Checkout';
+import Signup from './Pages/Login/Signup/Signup';
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
-        <Route path='/register' element={<Register></Register>}></Route>
+        <Route path='/signup' element={<Signup></Signup>}></Route>
         <Route path='/checkout' element={
           <RequireAuth>
             <Checkout></Checkout>
