@@ -76,7 +76,7 @@ const Login = () => {
 
     const resetPassword = async () => {
         await sendPasswordResetEmail(userInfo.email);
-        alert('Sent email');
+        toast('Sent email');
     }
 
     useEffect(() => {
