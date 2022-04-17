@@ -1,20 +1,46 @@
-import React, { useRef } from 'react';
+import React, { useState } from 'react';
 import { Button, Form, ToastContainer } from 'react-bootstrap';
+import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link } from 'react-router-dom';
+import auth from '../../../firebase.init';
 
 
 const Login = () => {
 
+    const [email, setEmail] = useState('')
+    const [password, setPassword] = useState('')
+
+    const [
+        signInWithEmailAndPassword,
+        user,
+        loading,
+        error,
+    ] = useSignInWithEmailAndPassword(auth);
+
+    const handleEmailChange = event => {
+        setEmail(event.target.value)
+    }
+
+    const handlePasswordChange = event => {
+        setPassword(event.target.value)
+    }
+
+    const handleSubmit = event => {
+        event.preventDefault()
+
+        console.log(email, password)
+    }
+
     return (
         <div className='container w-50 mx-auto'>
             <h1 className='text-success text-center my-3'>Please Login</h1>
-            <Form>
+            <Form onSubmit={handleSubmit}>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
-                    <Form.Control type="email" placeholder="Enter email" required />
+                    <Form.Control onChange={handleEmailChange} type="email" placeholder="Enter email" required />
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="formBasicPassword">
-                    <Form.Control type="password" placeholder="Password" required />
+                    <Form.Control onChange={handlePasswordChange} type="password" placeholder="Password" required />
                 </Form.Group>
                 <Button variant="success w-50 mx-auto d-block mb-2 rounded-pill" type="submit">
                     Login
