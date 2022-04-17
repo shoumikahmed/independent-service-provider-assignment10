@@ -1,0 +1,5 @@
+.img-container img {
+    float: right;
+    margin-left: auto;
+    display: block;
+}
