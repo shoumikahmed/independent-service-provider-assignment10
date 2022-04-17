@@ -5,6 +5,8 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Loading from '../../Shared/Loading/Loading';
+import SocialLogin from '../SocialLogin/SocialLogin';
 
 
 const Login = () => {
@@ -35,6 +37,7 @@ const Login = () => {
             navigate(from);
         }
     }, [user]);
+
 
     const handleEmailChange = event => {
         const emailRegex = /\S+@\S+\.\S+/;
@@ -95,7 +98,7 @@ const Login = () => {
             </Form>
             <p className='mt-2'>New to Genius Car? <Link to='/signup' className='text-success pe-auto text-decoration-none' >Please Sign up</Link></p>
             <p className='mt-2'>Forget Password? <button className='btn btn-link text-success pe-auto text-decoration-none' >Reset Password</button></p>
-
+            <SocialLogin></SocialLogin>
         </div>
     );
 };
