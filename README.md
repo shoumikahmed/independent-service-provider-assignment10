@@ -18,8 +18,10 @@ My project name is S.A Photography.The customers who are interested to rent me f
 ## Technologies
 ***
 A list of technologies used within the project:
-* [Bootstrap css](https://react-bootstrap.github.io/): Version 2.2.3
+* [Bootstrap](https://react-bootstrap.github.io/): Version 2.2.3
 * [React Toastify](https://github.com/fkhadra/react-toastify): Version 8.2.0
+* [React Router](https://reactrouter.com/): Version 6.3.0
+* [React Firebase Hook](https://github.com/CSFrequency/react-firebase-hooks): Version 5.0.3
 * [React](https://reactjs.org/): Version 17
 
 ## Installation
