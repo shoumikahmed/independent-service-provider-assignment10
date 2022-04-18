@@ -87,4 +87,6 @@
 
 .card-box .info .button:hover {
     box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+    color: #222;
+    background: rgba(230, 230, 52, 0.547);
 }

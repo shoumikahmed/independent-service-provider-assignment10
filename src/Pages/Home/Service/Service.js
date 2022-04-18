@@ -11,7 +11,7 @@ const Service = ({ service }) => {
                 <img className='' src={img} alt="" />
                 <div className="info">
                     <h5 className=' text-white'>{name}</h5>
-                    <p className='m-0 mt-2 text-primary'><strong>Price: ${price}</strong></p>
+                    <p className='m-0 mt-2 text-warning'><strong>Price: ${price}</strong></p>
                     <p className='m-0 mb-2'><small>{description}</small></p>
                     <Link to="/checkout">
                         <button className='button'>{name}</button>
