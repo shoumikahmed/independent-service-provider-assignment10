@@ -102,7 +102,7 @@ const Login = () => {
                 </Button>
                 <ToastContainer />
             </Form>
-            <p className='mt-2'>New to Genius Car? <Link to='/signup' className='text-success pe-auto text-decoration-none' >Please Sign up</Link></p>
+            <p className='mt-2'>New to S.A Photography? <Link to='/signup' className='text-success pe-auto text-decoration-none' >Please Sign up</Link></p>
             <p className='mt-2'>Forget Password? <button onClick={resetPassword} className='btn btn-link text-success pe-auto text-decoration-none' >Reset Password</button></p>
             <SocialLogin></SocialLogin>
         </div>
